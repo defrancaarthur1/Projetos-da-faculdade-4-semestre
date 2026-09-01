@@ -1,0 +1,30 @@
+# Sistema de Cadastro de Produtos
+ 
+Aplicação web desenvolvida em Java utilizando arquitetura MVC
+para gerenciamento de produtos.
+ 
+## Tecnologias
+ 
+- Java
+- Spring Boot
+- MySQL
+- HTML
+- CSS
+- JavaScript
+- DBeaver
+- VS Code
+ 
+## Funcionalidades
+ 
+- Cadastrar produtos
+- Listar produtos
+- Editar produtos
+- Excluir produtos
+ 
+## Como executar
+ 
+1. Criar o banco de dados
+2. Configurar o MySQL
+3. Configurar a conexão no application.properties
+4. Executar a aplicação
+5. Acessar o sistema pelo navegador

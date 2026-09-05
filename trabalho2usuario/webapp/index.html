@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema de Cadastro</title>
+</head>
+
+<body>
+
+    <header>
+        <h1>Sistema de cadastro de novo usuário</h1>
+        <a href="usuarios.html">Ver usuários cadastrados</a>
+    </header>
+
+    <form id="formCadastro">
+
+        <div>
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome">
+        </div>
+voc\
+        <div>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email">
+        </div>
+
+        <div>
+            <label for="telefone">Telefone:</label>
+            <input type="tel" id="telefone" name="telefone">
+        </div>
+
+        <div>
+            <label for="cep">CEP:</label>
+            <input type="text" id="cep" name="cep" maxlength="9" placeholder="00000-000">
+        </div>
+
+        <div>
+            <label for="logradouro">Endereço:</label>
+            <input type="text" id="logradouro" name="logradouro" readonly>
+        </div>
+
+        <div>
+            <label for="numero">Número:</label>
+            <input type="text" id="numero" name="numero" maxlength="10">
+        </div>
+
+        <div>
+            <label for="cidade">Cidade:</label>
+            <input type="text" id="cidade" name="cidade" readonly>
+        </div>
+
+        <div>
+            <label for="estado">Estado:</label>
+            <input type="text" id="estado" name="estado" readonly>
+        </div>
+
+        <button type="submit">Cadastrar</button>
+
+        <p id="mensagem"></p>
+
+
+
+
+    </form>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

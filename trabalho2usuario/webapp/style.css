@@ -1,0 +1,93 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 30px;
+}
+ 
+.container {
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+}
+ 
+h1 {
+    color: #333;
+}
+ 
+h2 {
+    color: #444;
+}
+ 
+form {
+    width: 350px;
+}
+ 
+label {
+    display: block;
+    margin-top: 10px;
+}
+ 
+input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    box-sizing: border-box;
+}
+ 
+button {
+    margin-top: 15px;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #4CAF50;
+    color: white;
+}
+ 
+button:hover {
+    background-color: #388E3C;
+}
+ 
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.lista-cabecalho {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+}
+
+.tabela-container {
+    overflow-x: auto;
+}
+
+a {
+    color: #1769aa;
+}
+ 
+th,
+td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: left;
+}
+ 
+th {
+    background-color: #eee;
+}
+ 
+.btn-editar {
+    background-color: #2196F3;
+}
+ 
+.btn-excluir {
+    background-color: #f44336;
+}

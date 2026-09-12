@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Usuários cadastrados</title>
+</head>
+
+<body>
+    <header>
+        <h1>Usuários cadastrados</h1>
+        <a href="index.html">Voltar para o cadastro</a>
+    </header>
+
+    <main class="container">
+        <div class="lista-cabecalho">
+            <h2>Registros salvos</h2>
+            <button id="atualizar" type="button">Atualizar lista</button>
+        </div>
+
+        <p id="mensagem" aria-live="polite">Carregando usuários...</p>
+
+        <div class="tabela-container">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Nome</th>
+                        <th>Email</th>
+                        <th>Telefone</th>
+                        <th>Endereço</th>
+                        <th>Cidade</th>
+                        <th>Estado</th>
+                    </tr>
+                </thead>
+                <tbody id="usuarios"></tbody>
+            </table>
+        </div>
+    </main>
+
+    <script src="usuarios.js"></script>
+</body>
+
+</html>
